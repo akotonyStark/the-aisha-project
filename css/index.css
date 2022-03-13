@@ -1,0 +1,115 @@
+body {
+  background-color: white;
+  margin: 0 auto;
+  height: 450vh;
+  width: 90%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-one {
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-two {
+  height: 150vh;
+  background-color: #fafafa;
+}
+.section-three {
+  height: 150vh;
+  background-color: #cecece;
+}
+
+.landing {
+  display: flex;
+  height: 80vh;
+}
+
+.left-landing {
+  width: 70%;
+  background-color: #fafafa;
+}
+.right-landing {
+  width: 30%;
+  background-color: blue;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-left {
+  height: 100px;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 10px; */
+  align-items: center;
+  background-color: white;
+}
+.header-right {
+  height: 100px;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: blue;
+}
+.menu-item {
+  font-weight: bold;
+  width: 100px;
+  text-align: right;
+}
+
+.big-card {
+  position: absolute;
+  top: 100px;
+  width: 75%;
+  height: 70vh;
+  background-color: white;
+  display: flex;
+}
+
+.big-card-info {
+  width: 50%;
+  height: 100%;
+}
+.big-card-image {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+}
+
+.searchDiv {
+  position: absolute;
+  left: 0%;
+  width: 50%;
+  border: 1px solid#f1f1f1;
+  z-index: 9000;
+}
+
+.search {
+  width: 70%;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+
+select:focus {
+  border: none;
+}
+
+.searchButt {
+  width: 100px;
+  height: 100%;
+  background-color: #fa4483;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 90%;
+}
