@@ -4,6 +4,9 @@
     width: 80% !important;
   }
 
+  .searchDiv {
+    width: 50% !important;
+  }
   .header {
     width: 72% !important;
   }
@@ -192,6 +195,10 @@ body {
   height: 100%;
 }
 
+.building {
+  box-shadow: 20px 55px 46px 0px #e3e3e3;
+}
+
 .big-card-image {
   width: 50%;
   height: 100%;
@@ -329,7 +336,7 @@ select:focus {
 .yes-i-want {
   background-color: #fa4483;
   height: 50px;
-  width: 90%;
+  width: 80%;
   color: white;
   z-index: 9000;
   box-shadow: 1px 2px #f1f1f1;
@@ -337,6 +344,12 @@ select:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.building-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 100px;
 }
 
 .title {
@@ -417,4 +430,18 @@ select:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fa4483;
+}
+
+.active {
+  text-decoration: underline;
 }
