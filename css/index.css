@@ -109,11 +109,11 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 300px) {
   body {
     background-color: white;
     margin: 0 auto;
-    height: 320vh;
+    height: 495vh !important;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
@@ -123,7 +123,7 @@
   }
 
   .section-one {
-    height: 70vh !important;
+    height: 150vh !important;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@
   }
 
   .section-two {
-    height: 120vh;
+    height: 400vh !important;
     background-color: #fff;
     padding-left: 5%;
     padding-right: 5%;
@@ -217,6 +217,7 @@
 
   .building {
     box-shadow: 20px 55px 46px 0px #e3e3e3;
+    height: 200px !important;
   }
 
   .big-card-image {
@@ -312,9 +313,9 @@
 
   .houses {
     display: grid;
-    height: 300px;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    height: 200px !important;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
   }
 
   .house {
@@ -331,7 +332,7 @@
 
   .featured-banner {
     background-color: #effdfd;
-    height: 100vh;
+    height: 100vh !important;
     display: flex;
   }
 
