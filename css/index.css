@@ -118,6 +118,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  .partners > span > img {
+    height: 10px !important;
+  }
+
   .section-one {
     height: 70vh !important;
     width: 95%;
@@ -842,9 +846,6 @@ a:hover {
 .partners {
   width: 100% !important;
   font-size: 10px !important;
-}
-.partners > span > img {
-  height: 10px !important;
 }
 
 .sponsors {
