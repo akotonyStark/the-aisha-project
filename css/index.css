@@ -53,9 +53,9 @@
   }
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1685px) {
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
   body {
-    height: 410vh !important;
+    height: 400vh !important;
     width: 100% !important;
     margin: 0 auto;
   }
@@ -70,11 +70,11 @@
   }
 
   .section-one {
-    height: 150vh !important;
+    height: 160vh !important;
   }
 
   .section-two {
-    height: 190vh !important;
+    height: 170vh !important;
   }
 
   .section-three {
@@ -880,4 +880,54 @@ a:hover {
   align-items: center;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+@media screen and (min-width: 2560px) {
+  .dashes {
+    width: 480px !important;
+  }
+
+  .partners {
+    width: 50% !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #718087 !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+  }
+}
+
+@media screen and (max-width: 1792px) {
+  .dashes {
+    width: 265px !important;
+  }
+
+  .partners {
+    width: 60% !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    color: #718087 !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+  }
+
+  .featured-banner {
+    height: 700px !important;
+  }
+
+  .header {
+    width: 81% !important;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .dashes {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .dashes {
+    width: 180px !important;
+  }
 }
