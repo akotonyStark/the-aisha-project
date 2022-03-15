@@ -8,7 +8,7 @@
     width: 50% !important;
   }
   .header {
-    width: 72% !important;
+    width: 80% !important;
   }
 
   .big-card {
@@ -19,7 +19,7 @@
   .right-landing {
     width: 25% !important;
     height: 70vh !important;
-    background-color: blue;
+    background-color: #3277a8;
   }
 
   .section-one {
@@ -49,7 +49,7 @@
   .right-landing {
     width: 30%;
     height: 65vh !important;
-    background-color: blue;
+    background-color: #3277a8;
   }
 }
 
@@ -101,7 +101,7 @@
     width: 30% !important;
     margin-right: 5% !important;
     height: 80vh !important;
-    background-color: blue;
+    background-color: #3277a8;
   }
 
   .building {
@@ -162,7 +162,7 @@
   .right-landing {
     width: 30%;
     height: 55vh !important;
-    background-color: blue;
+    background-color: #3277a8;
   }
 
   .header {
@@ -190,7 +190,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: blue;
+    background-color: #3277a8;
   }
 
   .menu-item {
@@ -227,13 +227,16 @@
     width: 38% !important;
     border: 1px solid#f1f1f1;
     z-index: 9000;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
   }
 
   .search {
-    width: 80%;
+    width: 100%;
     height: 30px !important;
     margin: 0 auto;
-    padding-left: 10px;
+    padding-left: 0px;
     outline: none;
     border: none;
   }
@@ -260,7 +263,7 @@
   .row-of-icons {
     margin-top: 5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .paragraphs {
@@ -300,7 +303,7 @@
     display: flex;
     justify-content: space-around;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .houses {
@@ -526,7 +529,7 @@ body {
 .right-landing {
   width: 30%;
   height: 95vh;
-  background-color: blue;
+  background-color: #3277a8;
 }
 
 .header {
@@ -553,11 +556,11 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: blue;
+  background-color: #3277a8;
 }
 
 .menu-item {
-  font-weight: bold;
+  font-weight: 400;
   width: 100px;
   text-align: right;
 }
@@ -592,13 +595,16 @@ body {
   width: 48%;
   border: 1px solid#f1f1f1;
   z-index: 9000;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .search {
-  width: 80%;
+  width: 100%;
   height: 50px;
   margin: 0 auto;
-  padding-left: 10px;
+  padding-left: 0px;
   outline: none;
   border: none;
 }
@@ -623,9 +629,10 @@ select:focus {
 }
 
 .row-of-icons {
+  width: 100%;
   margin-top: 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .paragraphs {
@@ -651,12 +658,17 @@ select:focus {
   width: 80%;
 }
 
+.view-all-property {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .all-property {
   background-color: #fa4483;
-  height: 100px;
+  height: 60px;
   border: none;
   color: white;
-  width: 100% !important;
+  width: 60% !important;
 }
 
 .section-two-menus {
@@ -665,7 +677,7 @@ select:focus {
   display: flex;
   justify-content: space-around;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .houses {
@@ -843,4 +855,29 @@ a:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr !important;
   align-items: center;
   width: 100% !important;
+}
+
+.circle-one {
+  background-color: #9672ff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.dashes {
+  width: 300px;
+  height: 10px;
+  border-bottom: 3px dashed #eaf8ff;
+}
+.circle-two {
+  background-color: #4ddffd;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
